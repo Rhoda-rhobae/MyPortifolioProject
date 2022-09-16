@@ -469,12 +469,26 @@ footer p:nth-child(2) {
 
   nav ul li {
     display: inline-block;
-    font-size: 15px;
+    font-size: 17px;
     padding: 10px 20px;
     color: white;
     list-style: none;
   }
 }
+
+@media only screen and (max-width: 733px){
+
+  nav ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 15px;
+    color: white;
+    list-style: none;
+  }
+
+}
+
+
 
 @media only screen and (max-width: 627px) {
   .names img {
@@ -487,13 +501,6 @@ footer p:nth-child(2) {
     object-fit: cover;
   }
 
-  nav ul li {
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px 15px;
-    color: white;
-    list-style: none;
-  }
 
   #btn {
     background-color: red;
@@ -545,15 +552,8 @@ footer p:nth-child(2) {
   }
 }
 
-@media only screen and (max-width: 651px) {
-  nav ul li {
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px 10px;
-    color: white;
-    list-style: none;
-  }
 
+@media only screen and (max-width: 651px) {
   .names h1 {
     font-size: 50px;
     margin: 70px 40px 22px;
@@ -568,22 +568,30 @@ footer p:nth-child(2) {
     left: 3%;
     object-fit: cover;
   }
+
+
+  #btn {
+    background-color: red;
+    border: 2px solid transparent;
+    text-decoration: none;
+    margin-right: 20%;
+    padding: 5px 8px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #111;
+    transition: transform 0.4s;
+  }
 }
 
-@media only screen and (max-width: 549px) {
-  nav ul li {
-    display: inline-block;
-    font-size: 15px;
-    padding: 10px 5px;
-    color: white;
-    list-style: none;
-  }
 
+
+@media only screen and (max-width: 549px) {
   .names h1 {
     font-size: 45px;
     margin: 70px 40px 22px;
   }
 }
+
 
 @media only screen and (max-width: 1287px) {
   .photo img {
@@ -632,11 +640,6 @@ footer p:nth-child(2) {
     transition: transform 0.4s;
   }
 
-  /* content {
-    display: flex;
-    margin-top: -40%;
-    background-color: #000;
-  } */
 
   .names img {
     position: absolute;
@@ -654,6 +657,20 @@ footer p:nth-child(2) {
     left: 3%;
     color: white;
   } */
+}
+
+
+@media only screen and (max-width: 1080px){
+  .names img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    border-radius: 0%;
+    top: -160%;
+    left: 0%;
+    object-fit: cover;
+  }
+
 }
 
 @media only screen and (max-width: 952px) {
@@ -702,28 +719,53 @@ footer p:nth-child(2) {
   }
 }
 
-/* @media only screen and (max-width: 995px){
-  .photo img {
-    top: -28%;
-    left: 92%;
-    position: absolute;
-    width: 60%;
-    height: auto;
-    border-radius: 3%;
+
+@media only screen and (max-width: 690px) {
+  .newsletter form input:first-child {
+    display: inline-block;
+    width: 70%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
   }
 
-
-  
-  .names img {
+  .newsletter form input:last-child {
     position: absolute;
-    width: 60%;
-    height: auto;
-    border-radius: 0%;
-    top: -135%;
-    left: -4%;
-    object-fit: cover;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 32%;
   }
-} */
+
+  nav ul li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 10px;
+    color: white;
+    list-style: none;
+  }
+
+  #btn {
+    background-color: red;
+    border: 2px solid transparent;
+    text-decoration: none;
+    margin-right: 9%;
+    padding: 3px 3px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #111;
+    transition: transform 0.4s;
+  }
+
+}
+
+
 
 @media only screen and (max-width: 510px) {
   .menu {
@@ -742,11 +784,11 @@ footer p:nth-child(2) {
 
   .names img {
     position: absolute;
-    width: 55%;
+    width: 70%;
     height: auto;
     border-radius: 0%;
-    top: -150%;
-    left: 30%;
+    top: -130%;
+    left: 18%;
     object-fit: cover;
   }
 
@@ -771,6 +813,7 @@ footer p:nth-child(2) {
   .nav-list .item-list {
     display: block;
     padding: 9px 20px;
+    font-size: 16px;
   }
 
   .active {
@@ -778,16 +821,19 @@ footer p:nth-child(2) {
   }
 
   #btn {
+    display: none;
     background-color: red;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     text-decoration: none;
-    margin-right: 20%;
-    padding: 5px 5px;
+    padding: 4px 4px;
     border-radius: 30px;
-    color: white;
     font-weight: bold;
+    margin-right: 20%;
+    color: #111;
     transition: transform 0.4s;
-  }
+  } 
+  
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -822,6 +868,8 @@ footer p:nth-child(2) {
     right: 22%;
   }
 
+ 
+  
   .about-me h2 {
     margin-top: 12%;
     font-size: 35px;
@@ -940,16 +988,59 @@ footer p:nth-child(2) {
   }
 }
 
-@media only screen and (max-width: 508px) {
-  .names img {
-    position: absolute;
-    width: 75%;
-    height: auto;
-    border-radius: 0%;
-    top: -140%;
-    left: 20%;
-    object-fit: cover;
+
+
+@media only screen and (max-width: 596px){
+
+  .logo {
+    color: white;
+    margin-left: 3%;
+    font-size: 18px;
   }
+  
+  nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 10px;
+    color: white;
+    list-style: none;
+  }
+
+  #btn {
+    background-color: red;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #111;
+    transition: transform 0.4s;
+  } 
+}
+
+@media only screen and (max-width: 523px){
+
+  nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 8px;
+    color: white;
+    list-style: none;
+  }
+
+  #btn {
+    background-color: red;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 4px 4px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #111;
+    transition: transform 0.4s;
+  } 
+
 }
 
 @media only screen and (max-width: 390px) {
@@ -1080,3 +1171,5 @@ footer p:nth-child(2) {
     font-weight: bold;
   }
 }
+
+
