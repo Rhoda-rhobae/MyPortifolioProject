@@ -300,6 +300,7 @@ section {
 }
 
 footer {
+  display: grid;
   position: relative;
   width: 100%;
   height: 400px;
@@ -476,8 +477,7 @@ footer p:nth-child(2) {
   }
 }
 
-@media only screen and (max-width: 733px){
-
+@media only screen and (max-width: 733px) {
   nav ul li {
     display: inline-block;
     font-size: 15px;
@@ -485,10 +485,7 @@ footer p:nth-child(2) {
     color: white;
     list-style: none;
   }
-
 }
-
-
 
 @media only screen and (max-width: 627px) {
   .names img {
@@ -500,7 +497,6 @@ footer p:nth-child(2) {
     left: 3%;
     object-fit: cover;
   }
-
 
   #btn {
     background-color: red;
@@ -552,7 +548,6 @@ footer p:nth-child(2) {
   }
 }
 
-
 @media only screen and (max-width: 651px) {
   .names h1 {
     font-size: 50px;
@@ -569,7 +564,6 @@ footer p:nth-child(2) {
     object-fit: cover;
   }
 
-
   #btn {
     background-color: red;
     border: 2px solid transparent;
@@ -583,15 +577,12 @@ footer p:nth-child(2) {
   }
 }
 
-
-
 @media only screen and (max-width: 549px) {
   .names h1 {
     font-size: 45px;
     margin: 70px 40px 22px;
   }
 }
-
 
 @media only screen and (max-width: 1287px) {
   .photo img {
@@ -640,7 +631,6 @@ footer p:nth-child(2) {
     transition: transform 0.4s;
   }
 
-
   .names img {
     position: absolute;
     width: 20%;
@@ -659,8 +649,7 @@ footer p:nth-child(2) {
   } */
 }
 
-
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px) {
   .names img {
     position: absolute;
     width: 60%;
@@ -670,7 +659,6 @@ footer p:nth-child(2) {
     left: 0%;
     object-fit: cover;
   }
-
 }
 
 @media only screen and (max-width: 952px) {
@@ -719,7 +707,6 @@ footer p:nth-child(2) {
   }
 }
 
-
 @media only screen and (max-width: 690px) {
   .newsletter form input:first-child {
     display: inline-block;
@@ -762,10 +749,7 @@ footer p:nth-child(2) {
     color: #111;
     transition: transform 0.4s;
   }
-
 }
-
-
 
 @media only screen and (max-width: 510px) {
   .menu {
@@ -831,9 +815,9 @@ footer p:nth-child(2) {
     margin-right: 20%;
     color: #111;
     transition: transform 0.4s;
-  } 
-  
+  }
 
+ 
 }
 
 @media only screen and (max-width: 375px) {
@@ -841,8 +825,9 @@ footer p:nth-child(2) {
     width: 60%;
     margin: 30px 5px;
   }
-}
 
+ 
+}
 
 
 @media only screen and (max-width: 478px) {
@@ -868,8 +853,6 @@ footer p:nth-child(2) {
     right: 22%;
   }
 
- 
-  
   .about-me h2 {
     margin-top: 12%;
     font-size: 35px;
@@ -988,16 +971,13 @@ footer p:nth-child(2) {
   }
 }
 
-
-
-@media only screen and (max-width: 596px){
-
+@media only screen and (max-width: 596px) {
   .logo {
     color: white;
     margin-left: 3%;
     font-size: 18px;
   }
-  
+
   nav ul li {
     display: inline-block;
     font-size: 14px;
@@ -1016,11 +996,10 @@ footer p:nth-child(2) {
     margin-right: 20px;
     color: #111;
     transition: transform 0.4s;
-  } 
+  }
 }
 
-@media only screen and (max-width: 523px){
-
+@media only screen and (max-width: 523px) {
   nav ul li {
     display: inline-block;
     font-size: 14px;
@@ -1039,8 +1018,7 @@ footer p:nth-child(2) {
     margin-right: 20px;
     color: #111;
     transition: transform 0.4s;
-  } 
-
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -1090,22 +1068,21 @@ footer p:nth-child(2) {
     padding: 10px 5px;
     border-radius: 30px;
     background-color: red;
-    font-size: 10px;
+    font-size: 11px;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 6px;
-    color: white;
+    color: #020120;
     right: 32%;
   }
 
   .about-me p {
-    width: 70%;
+    width: 90%;
+    text-align: justify;
     margin-top: 2%;
-    line-height: 28px;
     font-size: 16px;
     margin-bottom: 40px;
-    letter-spacing: 1px;
     color: white;
-    /* border: 1px solid red; */
+
   }
 
   .about-me h2 {
@@ -1114,6 +1091,22 @@ footer p:nth-child(2) {
     /* margin-left: 32%; */
     color: red;
   }
+
+  .about-me {
+    margin-top: -29px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+  }
+
+  footer p:nth-child(2) {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+  line-height: 26px;
+}
+
+
 }
 
 @media only screen and (max-width: 392px) {
@@ -1171,5 +1164,3 @@ footer p:nth-child(2) {
     font-weight: bold;
   }
 }
-
-
