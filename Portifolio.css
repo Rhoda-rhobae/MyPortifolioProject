@@ -173,6 +173,7 @@ content {
   margin-bottom: 40px;
   letter-spacing: 1px;
   color: white;
+  text-align: justify;
 }
 
 .about-me h2 {
@@ -816,8 +817,6 @@ footer p:nth-child(2) {
     color: #111;
     transition: transform 0.4s;
   }
-
- 
 }
 
 @media only screen and (max-width: 375px) {
@@ -825,10 +824,7 @@ footer p:nth-child(2) {
     width: 60%;
     margin: 30px 5px;
   }
-
- 
 }
-
 
 @media only screen and (max-width: 478px) {
   .newsletter form input:first-child {
@@ -1082,7 +1078,6 @@ footer p:nth-child(2) {
     font-size: 16px;
     margin-bottom: 40px;
     color: white;
-
   }
 
   .about-me h2 {
@@ -1099,14 +1094,12 @@ footer p:nth-child(2) {
   }
 
   footer p:nth-child(2) {
-  color: white;
-  font-size: 17px;
-  text-align: center;
-  padding: 10px;
-  line-height: 26px;
-}
-
-
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    line-height: 26px;
+  }
 }
 
 @media only screen and (max-width: 392px) {
